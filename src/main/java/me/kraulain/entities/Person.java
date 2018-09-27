@@ -1,4 +1,4 @@
-package entities;
+package me.kraulain.entities;
 
 public class Person {
     private String id;
