@@ -1,7 +1,7 @@
 package me.kraulain.entities;
 
 public class Person {
-    private String id;
+    private String uuid;
     private String name;
     private int age;
 
@@ -12,18 +12,18 @@ public class Person {
         this.setAge(age);
     }
 
-    public Person(String id, String name, int age) {
-        this.setId(id);
+    public Person(String uuid, String name, int age) {
+        this.setUuid(uuid);
         this.setName(name);
         this.setAge(age);
     }
 
-    public String getId() {
-        return id;
+    public String getUuid() {
+        return uuid;
     }
 
-    public void setId(String id) {
-        this.id = id;
+    public void setUuid(String uuid) {
+        this.uuid = uuid;
     }
 
     public String getName() {
